@@ -1,0 +1,38 @@
+{
+  "name": "react-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 6006 -c .storybook",
+    "type-check": "tsc",
+    "build": "babel src --out-dir lib --extensions \".ts,.tsx\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CRGavrila/react-components.git"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "javascript"
+  ],
+  "author": "crgavrila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CRGavrila/react-components/issues"
+  },
+  "homepage": "https://github.com/CRGavrila/react-components#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@storybook/addon-info": "^4.1.4",
+    "@storybook/addon-knobs": "^4.1.4",
+    "@storybook/addons": "^4.1.4",
+    "@storybook/react": "^4.1.4",
+    "storybook-addon-jsx": "^6.0.0"
+  },
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
